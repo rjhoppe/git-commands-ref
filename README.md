@@ -20,3 +20,18 @@ git branch -M main
 git push -u origin main
 ```
 
+Committing repo changes
+```
+git add .
+git status
+git commit -a
+git push [repo name]
+```
+Note: 'git status' shows you all active changes made to your current repo
+ 
+Managing remote repos
+```
+git remote -v
+```
+
+
