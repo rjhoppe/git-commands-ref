@@ -35,4 +35,9 @@ git remote add origin [remote origin]
 git remote -v
 ```
 
+Resolve 'fatal: refusing to merge unrelated histories' error
+```
+git pull origin master --allow-unrelated-histories
+```
+Then try pushing to remote repo again
 
