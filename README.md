@@ -31,6 +31,7 @@ Note: 'git status' shows you all active changes made to your current repo
  
 Managing remote repos
 ```
+git remote add origin [remote origin]
 git remote -v
 ```
 
