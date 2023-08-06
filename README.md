@@ -33,6 +33,7 @@ Managing remote repos
 ```
 git remote add origin [remote origin]
 git remote -v
+git remote rm origin
 ```
 
 Resolve 'fatal: refusing to merge unrelated histories' error
