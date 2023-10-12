@@ -49,4 +49,14 @@ git grep [file name]
 git grep -l 
 ```
 
-
+This command shows the difference introduced by a particular commit or blob:
+This will default to showing the last commit if another commit is not specified
+```
+git show
+git show -m HEAD
+```
+If searching for a specific commit id:
+```
+git log
+git show [commit id]
+```
