@@ -1,7 +1,6 @@
 # git-commands-ref
 List of my commonly used Git commands
 
-
 Create a new repo on the command line
 ```
 echo "# git-init" >> README.md
@@ -41,4 +40,13 @@ Resolve 'fatal: refusing to merge unrelated histories' error
 git pull origin master --allow-unrelated-histories
 ```
 Then try pushing to remote repo again
+
+
+Search the repo for mentions of a particular string
+Use the second option to search for mentions of a particular string in filenames
+```
+git grep [file name]
+git grep -l 
+```
+
 
