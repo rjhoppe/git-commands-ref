@@ -27,7 +27,12 @@ git commit -a
 git push [repo name]
 ```
 Note: 'git status' shows you all active changes made to your current repo
- 
+
+After initial commit use this to add changes from previous staged files:
+```
+git add -u
+```
+
 Managing remote repos
 ```
 git remote add origin [remote origin]
