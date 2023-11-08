@@ -19,6 +19,20 @@ git branch -M main
 git push -u origin main
 ```
 
+Pull new branches into local
+```
+git fetch
+```
+
+Clean out outdated branches
+```
+git fetch --prune 
+```
+OR to globally ensure that Git always automatically prunes
+```
+git config --global fetch.prune true
+```
+
 Committing repo changes
 ```
 git add .
