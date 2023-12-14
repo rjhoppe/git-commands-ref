@@ -19,6 +19,17 @@ git branch -M main
 git push -u origin main
 ```
 
+Create a new branch and switch to it
+```
+git checkout -b [branch name]
+```
+
+List all the branches of a repo
+```
+git branch -r
+git branch -r -v
+```
+
 Pull new branches into local
 ```
 git fetch
