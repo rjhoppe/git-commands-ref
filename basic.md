@@ -19,6 +19,12 @@ git branch -M main
 git push -u origin main
 ```
 
+Create a new repo branch and then pull it into your local repo
+```
+git remote add [new branch name] [git repo name/ url]
+git fetch [new branch name]
+```
+
 Create a new branch and switch to it
 ```
 git checkout -b [branch name]
