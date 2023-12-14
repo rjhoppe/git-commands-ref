@@ -34,6 +34,16 @@ List all the branches of a repo
 ```
 git branch -r
 git branch -r -v
+git branc -av
+```
+
+To checkout a remote branch as a local branch
+```
+git checkout -b [local branch name] [remote branch name]
+```
+EX:
+```
+git checkout -b build-v2 build-v2/main
 ```
 
 Pull new branches into local
