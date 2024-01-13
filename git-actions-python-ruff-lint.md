@@ -1,8 +1,8 @@
 # How to setup a Ruff Python lint job on Git repo push
-## 1. Create a new ".github" directory in your local repo
-## 2. Create a new "workflows" directory within your .github directory
-## 3. Create a "ruff-ci.yaml" file in your workflows directory
-## 4. Paste in the following .yaml text in your ruff-ci.yaml file:
+1. Create a new ".github" directory in your local repo
+2. Create a new "workflows" directory within your .github directory
+3. Create a "ruff-ci.yaml" file in your workflows directory
+4. Paste in the following .yaml text in your ruff-ci.yaml file:
 ```
 name: Ruff-CI
 
