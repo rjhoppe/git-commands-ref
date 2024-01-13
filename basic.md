@@ -112,3 +112,8 @@ See all remote git branches for your checked out remote
 ```
 git ls-remote --heads
 ```
+
+Remove a remote
+```
+git remote rm [remote name]
+```
