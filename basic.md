@@ -101,8 +101,14 @@ This will default to showing the last commit if another commit is not specified
 git show
 git show -m HEAD
 ```
+
 If searching for a specific commit id:
 ```
 git log
 git show [commit id]
+```
+
+See all remote git branches for your checked out remote
+```
+git ls-remote --heads
 ```
