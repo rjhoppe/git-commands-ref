@@ -117,3 +117,9 @@ Remove a remote
 ```
 git remote rm [remote name]
 ```
+
+Create a clean, linear git history by rebasing branches
+```
+git checkout exampleBranch
+git rebase main
+```
