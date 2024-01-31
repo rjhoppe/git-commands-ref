@@ -123,3 +123,22 @@ Create a clean, linear git history by rebasing branches
 git checkout exampleBranch
 git rebase main
 ```
+
+Revereses a change in a local branch by moving the branch references backwards in time to an older commit.
+```
+git reset
+git reset HEAD^
+git reset HEAD~3
+```
+
+Revereses a change in a a remote, to an older commit so that the reversed changes can be shared with others.
+```
+git revert
+git revert HEAD^
+git reset HEAD~3
+```
+
+Copies a series of commits below your current branch location
+```
+git cherry-pick [commit1] [commit2]
+```
