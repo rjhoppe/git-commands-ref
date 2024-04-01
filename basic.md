@@ -158,3 +158,9 @@ This plumbing cmd will show you what is in the staging area
 ```
 git ls-files -s
 ```
+
+Allows you to stage your commit in chunks. Essentially break up your commits
+```
+git add -p
+```
+Use the '?' option to view list of all cmds
