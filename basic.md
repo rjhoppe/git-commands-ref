@@ -142,3 +142,8 @@ Copies a series of commits below your current branch location
 ```
 git cherry-pick [commit1] [commit2]
 ```
+
+Return a compact view of your Git logs
+```
+git --no-pager log --oneline
+```
