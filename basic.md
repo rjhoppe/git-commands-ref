@@ -153,3 +153,8 @@ EX:
 ```
 tree .git/refs
 ```
+
+This plumbing cmd will show you what is in the staging area
+```
+git ls-files -s
+```
