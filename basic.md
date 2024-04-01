@@ -147,3 +147,9 @@ Return a compact view of your Git logs
 ```
 git --no-pager log --oneline
 ```
+
+Returns a tree of desired directories
+EX:
+```
+tree .git/refs
+```
