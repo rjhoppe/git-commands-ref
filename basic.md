@@ -164,3 +164,8 @@ Allows you to stage your commit in chunks. Essentially break up your commits
 git add -p
 ```
 Use the '?' option to view list of all cmds
+
+Return the current location of HEAD
+```
+cat .git/HEAD
+```
