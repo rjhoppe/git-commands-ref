@@ -169,3 +169,7 @@ Return the current location of HEAD
 ```
 cat .git/HEAD
 ```
+OR
+```
+git show-ref --heads
+```
