@@ -20,3 +20,8 @@ Looking at the tag or tagged contents
 ```
 git show [tag-name]
 ```
+
+Reverse look up a tag by referencing the SHA of a commit
+```
+git tag --points-at [first few digits of commit SHA]
+```
