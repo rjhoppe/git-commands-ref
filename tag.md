@@ -25,3 +25,9 @@ Reverse look up a tag by referencing the SHA of a commit
 ```
 git tag --points-at [first few digits of commit SHA]
 ```
+
+Create an annotated tag with meta data
+** VERY Helpful **
+```
+git tag -a [annotated tag name] -m ['tag message']
+```
