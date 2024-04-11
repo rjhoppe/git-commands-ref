@@ -179,6 +179,10 @@ Unstaged changes
 ```
 git diff
 ```
+EX: files
+```
+diff --git a/hello.txt b/hello.template
+```
 
 Staged changes
 ```
