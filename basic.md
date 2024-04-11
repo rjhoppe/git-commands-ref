@@ -173,3 +173,24 @@ OR
 ```
 git show-ref --heads
 ```
+
+Use diff to show the difference between commits, branches, or files
+Unstaged changes
+```
+git diff
+```
+
+Staged changes
+```
+git diff --staged
+```
+
+Return which branches have been merged with main and can thus be pruned
+```
+git branch --merged main
+```
+
+Return which branches have NOT been merged with main
+```
+git branch --no-merged main
+```
