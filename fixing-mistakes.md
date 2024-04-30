@@ -6,7 +6,7 @@ git checkout --file
 Be very careful with this command.  
 If you need to run this, be sure to stash any commits that are at risk
 
-**WARNING: DESTRUCTIVE OPERATION** 
+**WARNING: DESTRUCTIVE OPERATION**   
 Reset an individual file to the state it was in the last time it was committed
 ```
 git checkout -- [name of file]
@@ -48,7 +48,7 @@ OR
 git reset --mixed HEAD~
 ```
 
-**WARNING: DESTRUCTIVE OPERATION** 
+**WARNING: DESTRUCTIVE OPERATION**   
 Option 3: (BE CAREFUL) - Move HEAD, Copy files to staging and working area
 ```
 git reset --hard HEAD~
