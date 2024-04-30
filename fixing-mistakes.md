@@ -6,6 +6,16 @@ git checkout --file
 Be very careful with this command.  
 If you need to run this, be sure to stash any commits that are at risk
 
+Run this command to working area of any uncommitted files
+This shows you what files are set to be removed by git clean:
+```
+git clean --dry-run
+```
+This removes the files
+```
+git clean -f
+```
+
 The safest way to do "git reset" is "git revert"
 
 ```
