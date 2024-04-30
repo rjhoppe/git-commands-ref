@@ -6,6 +6,16 @@ git checkout --file
 Be very careful with this command.  
 If you need to run this, be sure to stash any commits that are at risk
 
+The safest way to do "git reset" is "git revert"
+
+Git revert creates a new commit that introduces the opposite changes from the specified commit. The original commit stays in the repo.
+
+Use git revert if you are undoing a commit that has already been shared. Revert DOES NOT change history
+
+```
+git revert
+```
+
 Three different options for "git reset"
 Option 1: Move HEAD, previous files can be considered a dangling commit
 ```
